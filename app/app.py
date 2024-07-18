@@ -1,6 +1,3 @@
-# import os
-# DATABASE_URL = os.getenv("postgres://u5dp727eq2oi62:p8ba350aa80a5611c6773b313fa181148da40eccc6e7b1764bcf9390caccad094@c9mq4861d16jlm.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d9okhhtcahgaeo")
-
 from flask import Flask, render_template
 app = Flask(__name__) # You pass the special variable __name__ that holds the name of the current Python module. It’s used to tell the instance where it’s located—you need this because Flask sets up some paths behind the scenes.
 
