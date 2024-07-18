@@ -1,0 +1,28 @@
+.menu {
+  height: 100vh;
+  width: 200px;
+  background-color: #4A8BBE; }
+  .menu ul {
+    list-style-type: none; }
+    .menu ul li {
+      color: black; }
+
+.title-index {
+  height: 100vh;
+  width: 100vw;
+  background: url("/static/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .title-index .title {
+    color: yellow;
+    text-decoration: none;
+    transition: 0.3s; }
+    .title-index .title:hover {
+      text-decoration: underline;
+      text-underline-position: 12px; }
+  .title-index h4 {
+    color: yellow; }

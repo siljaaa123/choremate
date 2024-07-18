@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <div class="menu">
+      <h1 class="title">CHOREMATE</h1>
+      <ul>
+        <li><a class="title" href="{{ url_for('groups') }}">Groups</a></li>
+        <li><a class="title" href="{{ url_for('chores') }}">Chores</a></li>
+        <li><a class="title" href="{{ url_for('calender') }}">Calender</a></li>
+        <li><a class="title" href="{{ url_for('messages') }}">Messages</a></li>
+      </ul>
+  </div>
+</body>
+</html>

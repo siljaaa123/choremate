@@ -1,0 +1,26 @@
+{
+  "name": "chore_mate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch app/static/scss/main.scss -o app/static/css",
+    "start": "concurrently \"npm run scss\" \"python app/app.py\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siljaaa123/choremate.git"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "concurrently": "^6.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siljaaa123/choremate/issues"
+  },
+  "homepage": "https://github.com/siljaaa123/choremate#readme",
+  "description": ""
+}

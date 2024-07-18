@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+.menu {
+  height: 100vh;
+  width: 20vw;
+  background-color: #4A8BBE;
+  padding: 20px;
+
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.menu .title{
+  color:white;
+  text-decoration: none;
+  margin-bottom: 48px;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-bottom: 14px;
+  color: white;
+}
+
+.menu ul li:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  transition:0.3s;
+}
+
+.title-index {
+  height: 100vh;
+  width: 100vw;
+  background: url("/static/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-index .title {
+  color: yellow;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.title-index .title:hover {
+  text-decoration: underline;
+  text-underline-position: 12px;
+}
+.title-index h4 {
+  color: yellow;
+}
+
+/*# sourceMappingURL=styles.css.map */
